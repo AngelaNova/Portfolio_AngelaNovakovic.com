@@ -1,6 +1,6 @@
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents'; 
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, GitHubLink } from './HeroStyles';
+import { LeftSection, GitHubLink, YoutubeLink, SpotifyLink } from './HeroStyles';
 import Tooltip from '@mui/material/Tooltip';
 import {useState} from 'react';
 
@@ -48,23 +48,17 @@ const Hero = (props) => {
           <div className='mt-4 text-xl text-gray-700 md:mt-3'>
             <p>
               You will discover a curated collection showcasing my professional journey, creative endeavors, and passions, including fun facts such as that I've pushed&nbsp;
-              <GitHubLink>
-                <a href="https://github.com/AngelaNova">
+              <GitHubLink href="https://github.com/AngelaNova">
                   144 commits to Github
-                </a>
               </GitHubLink> 
               , watched&nbsp;
-              <GitHubLink>
-                <a href="https://www.youtube.com/playlist?list=PL5X764mf-V_MJzVhA4egDnbjBAdivzViz">
+              <YoutubeLink href="https://www.youtube.com/playlist?list=PL5X764mf-V_MJzVhA4egDnbjBAdivzViz"> 
                   more than 76 hours of coding tutorials on YouTube
-                </a>
-              </GitHubLink>
+              </YoutubeLink>
               &nbsp;and listened to
-              <GitHubLink>
-                <a href="https://developer.spotify.com/documentation/web-api">
-                  &nbsp;600 minutes of music on Spotify
-                </a>
-              </GitHubLink>
+              <SpotifyLink href="https://developer.spotify.com/documentation/web-api">
+                  &nbsp;600 minutes of music on Spotify 
+              </SpotifyLink>
               &nbsp;in the past 30 days.
             </p>
           </div>

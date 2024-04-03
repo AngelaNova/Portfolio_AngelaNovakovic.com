@@ -12,9 +12,8 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> 
-          <span>ANGELA</span>
+        <a style={{ display: 'flex', alignItems: 'center', color:"white",fontFamily:'Verdana' , fontSize:"30px", marginLeft:"30px"}}>
+          <span>AngelaNova</span>
         </a>
       </Link>
     </Div1>

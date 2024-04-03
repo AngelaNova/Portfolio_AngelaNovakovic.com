@@ -5,6 +5,7 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  border-radius:3%;
 `
 
 export const GridContainer = styled.section`
@@ -13,7 +14,7 @@ grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
 column-gap: 2rem;
-row-gap: 3rem;
+row-gap: 0;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;

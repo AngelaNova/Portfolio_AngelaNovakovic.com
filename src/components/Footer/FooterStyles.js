@@ -3,9 +3,10 @@ import styled from "styled-components"
 export const FooterWrapper = styled.section`
 	width: calc(100vw - 96px);
   max-width: 1040px;
-  padding: 2rem 48px 40px;
-  margin: 1rem auto;
+  padding: 3rem 48px 40px;
+  margin: 2rem auto;
   box-sizing: content-box;
+	position:relative;
 
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -42,11 +43,12 @@ export const LinkItem = styled.a`
 		align-items: center;
 	}
 `
-export const Img = styled.img`
-  width:100%;
-  height:100%;
-  object-fit: cover;
-  overflow: hidden;
+export const LinkUp = styled.a`
+  height:10px;
+	position: absolute;
+	right:120px;
+	bottom:145px;
+	color:white;
 `
 
 export const SocialIconsContainer = styled.div`
@@ -65,6 +67,7 @@ justify-content: space-between;
   flex-direction: column;
 }
 `
+
 
 export const CompanyContainer = styled.div`
   display: flex;
@@ -147,6 +150,7 @@ export const LinkColumn = styled.div`
 	flex-direction: column;
 	max-width: 220px;
 	width: 100%;
+
 `
 export const LinkTitle = styled.h4`
 	font-style: normal;
@@ -156,6 +160,7 @@ export const LinkTitle = styled.h4`
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.4);
 	margin-bottom: 16px;
+
 
 	@media ${props => props.theme.breakpoints.sm} {
 		font-size: 10px;

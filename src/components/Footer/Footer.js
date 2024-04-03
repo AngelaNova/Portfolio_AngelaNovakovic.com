@@ -1,26 +1,26 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, Img } from './FooterStyles';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { SocialIcons} from '../Header/HeaderStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, LinkUp } from './FooterStyles';
 
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkTitle>Message Me on LinkedIn</LinkTitle>
+          <LinkItem href="https://www.linkedin.com/in/angela-novakovic/"> Send Message - LinkedIn</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+          <LinkItem href="mailto:angela.novakovic.SD@gmail.com">
+            angela.novakovic.SD@gmail.com
           </LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkItem href="/">
+          <LinkUp href="/">
             &#8593; UP
-          </LinkItem>
+          </LinkUp>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -28,14 +28,17 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/AngelaNova">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/angela-novakovic/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
+          <SocialIcons href="mailto:angela.novakovic.SD@gmail.com">
+            <img src="images/email.png"  style= {{height:"40px",
+              weight:"40px",
+            }}
+            />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
