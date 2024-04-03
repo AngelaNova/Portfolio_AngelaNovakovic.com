@@ -42,11 +42,12 @@ export const LinkItem = styled.a`
 		align-items: center;
 	}
 `
-export const CustomImage = styled.img`
-  width: 100px; /* Set the width of the image here */
-`;
-
-
+export const Img = styled.img`
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  overflow: hidden;
+`
 
 export const SocialIconsContainer = styled.div`
 max-width: 1040px;

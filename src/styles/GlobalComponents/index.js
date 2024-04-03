@@ -34,13 +34,15 @@ export const SectionTitle = styled.h2`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  margin-top: 0;
+  padding-top:0;
+  padding: ${(props) => props.main ? '0 0 16px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '46px' : '38px'};
     line-height: ${(props) => props.main ? '46px' : '38px'};
     margin-bottom: 12px;
-    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+    padding: ${(props) => props.main ? '0 0 12px' : '0'};
   }
 
   @media ${props => props.theme.breakpoints.sm}{
@@ -119,7 +121,7 @@ export const SectionSubText = styled.p`
 export const SecondaryBtn = styled.button`
   color: #FFF;
   background: rgba(255, 117, 67, 0.73);
-  border: 1px solid rgba(255, 117, 67, 0.90);
+  border: none;
   box-sizing: border-box;
   border-radius: 999px;
   padding: 16px 24px;

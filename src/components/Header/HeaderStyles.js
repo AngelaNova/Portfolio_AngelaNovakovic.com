@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
@@ -13,14 +13,14 @@ export const Container = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
 `;
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1 / 1 / 2 / 3;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -29,24 +29,28 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 5; /* Update to span from column 2 to 5 */
+  grid-area: 1 / 4 / 4 / span 5; /* Update to span from column 2 to 6 */
   display: flex;
   justify-content: space-around;
+  align-content:right;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 6; /* Update to span from column 2 to 6 */
+    grid-area: 2 / 4 / 4 / span 5; 
   }
 `;
+
+/*
 export const Div3 = styled.div`
-  grid-area: 1 / 5 / 2 / 7; /* Update to span from column 5 to 7 */
+  grid-area: 1 / 5 / 2 / 7; /* Update to span from column 5 to 7 
   display: flex;
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    grid-area: 1 / 4 / 2 / 7; /* Update to span from column 4 to 7 */
+    grid-area: 1 / 4 / 2 / 7;  Update to span from column 4 to 7 
   }
 `;
+*/
 
 // Navigation Links
 export const NavLink = styled.a`
