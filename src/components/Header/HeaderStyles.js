@@ -13,12 +13,8 @@ export const Container = styled.div`
   right:0;
   top:0;
   background:linear-gradient(91deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 1, 60, 0.65) 100%);
-  z-index:2000;
+  z-index:200;
   
-  
-
-  
-
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -27,6 +23,8 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 3;
   display: flex;
@@ -76,6 +74,7 @@ export const NavLink = styled.a`
     padding: 1rem;
   }
 `;
+
 
 /// DropDown Contact
 export const ContactDropDown = styled.button`

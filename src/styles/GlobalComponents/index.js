@@ -169,11 +169,11 @@ export const SecondaryBtn = styled.button`
 `
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => alt ? '150px' : '262px'};
-  height: ${({ alt }) => alt ? '52px' : '64px'};
+  width: ${({ alt }) => alt ? '120px' : '170px'};
+  height: ${({ alt }) => alt ? '34px' : '51px'};
   border-radius: 50px;
-  font-size: ${({ alt }) => alt ? '20px' : '24px'};
-  font-weight: 600;
+  font-size: ${({ alt }) => alt ? '15px' : '19px'};
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,17 +187,17 @@ export const ButtonBack = styled.div`
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: ${({ alt }) => alt ? '150px' : '184px'};
-    height: ${({ alt }) => alt ? '52px' : '48px'};
-    font-size: ${({ alt }) => alt ? '20px' : '16px'};
-    margin-bottom: ${({ alt }) => alt ? '0' : '64px'};
+    width: ${({ alt }) => alt ? '100px' : '120px'};
+    height: ${({ alt }) => alt ? '28px' : '34px'};
+    font-size: ${({ alt }) => alt ? '15px' : '11px'};
+    margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
-    height: 32px;
-    font-size: 14px;
-    margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
+    height: 21px;
+    font-size: 9px;
+    margin-bottom: ${({ alt }) => alt ? '0' : '16px'};
   }
 `
 
@@ -214,8 +214,8 @@ export const ButtonFront = styled.button`
   background: ${({ alt }) => alt ? 'rgba(255, 117, 67, 0.73)' : 'rgba(255, 117, 67, 0.63)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
-  font-size: ${({ alt }) => alt ? '20px' : '24px'};
-  font-weight: 600;
+  font-size: ${({ alt }) => alt ? '15px' : '19px'};
+  font-weight: 400;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -239,11 +239,11 @@ export const ButtonFront = styled.button`
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: ${({ alt }) => alt ? '20px' : '16px'};
+    font-size: ${({ alt }) => alt ? '15px' : '11px'};
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 14px;
+    font-size: 9px;
   }
 `
 
