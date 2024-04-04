@@ -90,25 +90,6 @@ export const CompanyContainer = styled.div`
 `
 
 
-export const Slogan = styled.p`
-	color: rgba(255, 255, 255, 0.5);
-	min-width: 280px;
-	letter-spacing: 0.02em;
-	font-size: 18px;
-	line-height: 30px;
-	padding: 1rem;
-
-	@media ${props => props.theme.breakpoints.md}{
-		font-size: 16px;
-		line-height: 28px;
-	}
-
-	@media ${props => props.theme.breakpoints.sm}{
-		line-height: 22px;
-		font-size: 14px;
-		min-width: 100px;
-	}
-`
 
 export const SocialContainer = styled.div`
 	display: flex;
@@ -166,5 +147,25 @@ export const LinkTitle = styled.h4`
 		font-size: 10px;
 		line-height: 12px;
 		margin-bottom: 8px;
+	}
+`
+
+export const Copyright = styled.p`
+	color: rgba(255, 255, 255, 0.4);
+	min-width: 280px;
+	letter-spacing: 0.02em;
+	font-size: 10px;
+	line-height: 30px;
+	padding: 1rem;
+
+	@media ${props => props.theme.breakpoints.md}{
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	@media ${props => props.theme.breakpoints.sm}{
+		line-height: 22px;
+		font-size: 14px;
+		min-width: 100px;
 	}
 `

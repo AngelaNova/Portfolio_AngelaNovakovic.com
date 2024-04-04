@@ -6,10 +6,18 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import { useEffect } from 'react';
+
+
+ 
 
 
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Angela's Portfolio"; // Set your desired title here
+  }, []);
+
   return (
     <Layout>
       <Section grid>
