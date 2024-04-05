@@ -1,8 +1,5 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
-
 import { Container, Div1, Div2, NavLink } from './HeaderStyles';
 
 const Header = () =>  {
@@ -28,7 +25,7 @@ const Header = () =>  {
               <img width="18px" style={{ paddingLeft: "5px" }} paddingLeft="5px" src="/images/arrowDownIcon.png" alt="Arrow Down Icon" />
               <ul>
                 <li>
-                  <Link href="src/pages/PortfolioProject.js">
+                  <Link href="/PortfolioPage">
                     <NavLink>Portfolio Project</NavLink>
                   </Link>
                 </li>

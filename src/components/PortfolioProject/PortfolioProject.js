@@ -3,7 +3,7 @@ import React from 'react'
 const PortfolioProject = () => {
   return (
     <div>
-      This is my Portfolio 
+     <p> This is my Portfolio  </p> 
     </div>
   )
 }
