@@ -25,7 +25,7 @@ const Header = () =>  {
               <img width="18px" style={{ paddingLeft: "5px" }} paddingLeft="5px" src="/images/arrowDownIcon.png" alt="Arrow Down Icon" />
               <ul>
                 <li>
-                  <Link href="/PortfolioPage">
+                  <Link href="./PortfolioPage">
                     <NavLink>Portfolio Project</NavLink>
                   </Link>
                 </li>

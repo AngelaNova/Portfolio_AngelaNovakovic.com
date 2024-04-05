@@ -1,11 +1,10 @@
-import React from 'react'
+// components/PortfolioProject/PortfolioProject.js
+import React from 'react';
 
 const PortfolioProject = () => {
   return (
-    <div>
-     <p> This is my Portfolio  </p> 
-    </div>
-  )
+    <p>This is my Portfolio Project</p>
+  );
 }
 
-export default PortfolioProject
+export default PortfolioProject;

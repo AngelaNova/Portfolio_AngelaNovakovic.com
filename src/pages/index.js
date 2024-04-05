@@ -5,10 +5,10 @@ import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
-import PortfolioProject from '../components/PortfolioProject/PortfolioProject';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import { useRouter } from 'next/router';
+import PortfolioPage from './PortfolioPage';
 
 const Home = () => {
   useEffect(() => {
@@ -16,25 +16,25 @@ const Home = () => {
   }, []);
 
   const router = useRouter();
-  const portfolioProjectPath = './PortfolioProfile'; 
+  const portfolioProjectPath = './PortfolioPage'; 
   // Check if the current route pathname matches the portfolio project path
   const shouldRenderPortfolioProject = router.pathname === portfolioProjectPath;
 
   return (
     <Layout>
       {shouldRenderPortfolioProject ? (
-        <PortfolioProject />
+        <PortfolioPage />
       ) : (
-          <>
-            <Section grid>
-              <Hero />
-              <BgAnimation />
-            </Section>
-            <Projects />
-            <Technologies />
-            <Timeline />
-            <Acomplishments />
-          </>
+        <>
+          <Section grid>
+            <Hero />
+            <BgAnimation />
+          </Section>
+          <Projects />
+          <Technologies />
+          <Timeline />
+          <Acomplishments />
+        </>
       )}
     </Layout>
   );
