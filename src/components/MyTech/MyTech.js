@@ -1,6 +1,6 @@
 import { Section, SectionText} from '../../styles/GlobalComponents'; 
-import React from 'react'
-import Technologies from '../Technologies/Technologies'
+import React from 'react';
+import Technologies from '../Technologies/Technologies';
 
 
 const MyTech = () => {
@@ -14,4 +14,4 @@ const MyTech = () => {
   )
 }
 
-export default MyTech
+export default MyTech;

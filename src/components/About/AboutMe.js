@@ -1,7 +1,7 @@
 import { Section, SectionText } from '../../styles/GlobalComponents'; 
 import React from 'react';
 
-const About = () => {
+const AboutMe = () => {
   return (
     <Section>
       <SectionText>
@@ -11,4 +11,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutMe;

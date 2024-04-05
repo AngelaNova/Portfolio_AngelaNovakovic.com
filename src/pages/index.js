@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
 
   return (
-    <Layout>
+    <Layout >
       <Section grid>
         <Hero />
         <BgAnimation />
@@ -26,6 +26,6 @@ const Home = () => {
       <Acomplishments />
     </Layout>
   );
-};
+}
 
 export default Home;

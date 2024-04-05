@@ -38,8 +38,6 @@ const Hero = (props) => {
             onMouseLeave={() => setIsHovered(false)}
           />
         </Tooltip>
-
-
         <SectionTitle main center>
           <br></br>
           Hey, I'm Angela.<br></br> Welcome to my portfolio!

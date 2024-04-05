@@ -7,7 +7,7 @@ const MyTechPage = () => {
     <Layout>
       <MyTech/>
     </Layout>
-  )
+  );
 }
 
-export default MyTechPage
+export default MyTechPage;
