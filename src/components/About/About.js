@@ -1,15 +1,14 @@
 import { Section, SectionText } from '../../styles/GlobalComponents'; 
 import React from 'react';
 
-const PortfolioProject = () => {
+const About = () => {
   return (
     <Section>
       <SectionText>
-        This is my Portfolio Project
+        This is the About Page
       </SectionText>
     </Section>
-  );
+  )
 }
 
-export default PortfolioProject;
-
+export default About

@@ -43,7 +43,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+    <Section>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         Combining a background in organic chemistry with a fervent passion for software, my career reflects a journey of innovation and dedication. Transitioning from mastering organic synthesis to delving into software development intricacies, I embody a fusion of analytical prowess and creative problem-solving.

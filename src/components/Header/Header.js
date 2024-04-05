@@ -25,7 +25,7 @@ const Header = () =>  {
               <img width="18px" style={{ paddingLeft: "5px" }} paddingLeft="5px" src="/images/arrowDownIcon.png" alt="Arrow Down Icon" />
               <ul>
                 <li>
-                  <Link href="./PortfolioPage">
+                  <Link href="/PortfolioPage">
                     <NavLink>Portfolio Project</NavLink>
                   </Link>
                 </li>
@@ -43,12 +43,12 @@ const Header = () =>  {
             
         </li>
         <li>
-          <Link href="./MyTechPage">
+          <Link href="/MyTechPage">
             <NavLink>Technologies</NavLink>
           </Link>
         </li>        
         <li>
-          <Link href="#about">
+          <Link href="/AboutPage">
             <NavLink>About</NavLink>
           </Link>
         </li>  
