@@ -45,18 +45,7 @@ export const Div2 = styled.div`
   }
 `;
 
-/*
-export const Div3 = styled.div`
-  grid-area: 1 / 5 / 2 / 7; /* Update to span from column 5 to 7 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
-    grid-area: 1 / 4 / 2 / 7;  Update to span from column 4 to 7 
-  }
-`;
-*/
+
 
 // Navigation Links
 export const NavLink = styled.a`

@@ -151,7 +151,7 @@ export const LinkTitle = styled.h4`
 `
 
 export const Copyright = styled.p`
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.3);
 	min-width: 280px;
 	letter-spacing: 0.02em;
 	font-size: 10px;

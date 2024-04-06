@@ -48,18 +48,22 @@ const Header = () =>  {
           </Link>
         </li>        
         <li>
-          <Link href="/AboutMePage">
+          <Link href="/AboutPage">
             <NavLink>About</NavLink>
           </Link>
         </li>  
         <li>
-          <Link href="#Contact">
+          <Link href="#Footer">
             <NavLink>Contact</NavLink>
           </Link>
         </li>   
         <li>
           <Link href="#Resume">
-            <NavLink>Resume</NavLink>
+            <NavLink>
+              Resume
+              &#160;
+              <img src="images/cloudDownload.png" height="20px"/>
+            </NavLink>
           </Link>
         </li>      
       </Div2>
