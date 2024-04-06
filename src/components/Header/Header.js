@@ -58,11 +58,11 @@ const Header = () =>  {
           </Link>
         </li>   
         <li>
-          <Link href="#Resume">
+          <Link  href="CV_Angela_Novakovic-2024.pdf" target="_blank">
             <NavLink>
               Resume
               &#160;
-              <img src="images/cloudDownload.png" height="20px"/>
+                <img src="images/cloudDownload.png" height="25px" /> 
             </NavLink>
           </Link>
         </li>      
