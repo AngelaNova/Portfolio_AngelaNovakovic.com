@@ -8,10 +8,8 @@ const Footer = () => {
     <FooterWrapper id="Footer">
       <LinkList>
         <LinkColumn>
-          <LinkTitle>
-            Message Me on LinkedIn
-          </LinkTitle>
-          <LinkItem href="https://www.linkedin.com/in/angela-novakovic/"> Send Message - LinkedIn</LinkItem>
+          <LinkTitle> Message Me on LinkedIn </LinkTitle>
+          <LinkItem href="https://www.linkedin.com/in/angela-novakovic/"> Angela - LinkedIn</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle> Email </LinkTitle>
