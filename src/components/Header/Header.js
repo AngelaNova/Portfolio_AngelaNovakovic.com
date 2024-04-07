@@ -58,7 +58,7 @@ const Header = () =>  {
           </Link>
         </li>   
         <li>
-          <Link  href="CV_Angela_Novakovic-2024.pdf" target="_blank">
+          <Link  href="Resume/CV_Angela_Novakovic-2024.pdf" target="_blank">
             <NavLink>
               Resume
               &#160;

@@ -20,5 +20,9 @@
     "spotify-web-api-node": "^5.0.2",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/AngelaNova/Portfolio_AngelaNovakovic.com.git",
+  "author": "Angela Novakovic <160551855+AngelaNova@users.noreply.github.com>",
+  "license": "MIT"
 }

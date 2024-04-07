@@ -14,39 +14,43 @@ const Technologies = () =>  (
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiReact size="4rem" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js, JavaScript<br />
-            HTML, CSS
+            <SectionText>
+              Experiece with React.js,<br /> JavaScript HTML, CSS
+            </SectionText>
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <DiFirebase size="4rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases <br />
-            Object-Oriented-Programming
+            <SectionText>
+              Experience with <br />
+              Node and Databases <br />
+              Object-Oriented-Programming
+            </SectionText>
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiZend size="4rem"/>
         </picture>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            <SectionText>
+              Experience with <br />
+              tools like Figma
+            </SectionText>
           </ListParagraph>
         </ListContainer>
       </ListItem>
