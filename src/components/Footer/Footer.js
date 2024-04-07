@@ -8,11 +8,13 @@ const Footer = () => {
     <FooterWrapper id="Footer">
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Message Me on LinkedIn</LinkTitle>
+          <LinkTitle>
+            Message Me on LinkedIn
+          </LinkTitle>
           <LinkItem href="https://www.linkedin.com/in/angela-novakovic/"> Send Message - LinkedIn</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
+          <LinkTitle> Email </LinkTitle>
           <LinkItem href="mailto:angela.novakovic.SD@gmail.com">
             angela.novakovic.SD@gmail.com
           </LinkItem>
@@ -25,7 +27,9 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Copyright>Copyright © 2024 Angela Novakovic, MSc - All Rights Reserved</Copyright>
+          <Copyright>
+            Copyright © 2024 Angela Novakovic, MSc - All Rights Reserved
+          </Copyright>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/AngelaNova">

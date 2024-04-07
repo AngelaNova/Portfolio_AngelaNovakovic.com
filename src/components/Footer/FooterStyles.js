@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const FooterWrapper = styled.section`
 	width: calc(100vw - 96px);
@@ -7,6 +7,7 @@ export const FooterWrapper = styled.section`
   margin: 2rem auto;
   box-sizing: content-box;
 	position:relative;
+	margin-top:50px;
 
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -14,6 +15,8 @@ export const FooterWrapper = styled.section`
     width: calc(100vw - 32px);
   }
 `
+
+
 
 export const LinkItem = styled.a`
 	font-size: 18px;
@@ -44,10 +47,10 @@ export const LinkItem = styled.a`
 	}
 `
 export const LinkUp = styled.a`
-  height:10px;
+  font-size: 20px;
 	position: absolute;
 	right:120px;
-	bottom:145px;
+	bottom:130px;
 	color:white;
 `
 
@@ -134,8 +137,7 @@ export const LinkColumn = styled.div`
 
 `
 export const LinkTitle = styled.h4`
-	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 12px;
 	line-height: 24px;
 	text-transform: uppercase;
