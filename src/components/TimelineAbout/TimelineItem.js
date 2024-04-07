@@ -9,7 +9,7 @@ const TimelineItem = ({ children, date, title }) => {
     return (
         <div className="flex flex-col items-start justify-center">
             <TimelineHeading title={title ?? ''} />
-            <div className="flex gap-x-1 items-center mb-4">
+            <div height={"50px"} >
                 <img src={ClockIcon} alt="Clock Icon" height={"20px"} />
                 <span style={{ color: colors.primary1 }} className='text-gray-500 font-inter tracking-tight text-sm'>{date}</span>
             </div>
