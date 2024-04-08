@@ -1,17 +1,20 @@
 import { Section, SectionTitle } from '../../styles/GlobalComponents'; 
 import React from 'react';
 import Timeline from '../TimeLine/TimeLine';
+import TimelineSoftware from '../TimelineSoftware/TimelineSoftware';
 import { NavLink } from './AboutStyle';
 import Link from 'next/link';
 
 
-const AboutMe = () => {
+const About = () => {
   return (
     <Section>
-      <SectionTitle>
+      <SectionTitle style={{
+        marginTop:"130px",
+      }}>
         Towards Software Development 
       </SectionTitle>
-      <Timeline/>
+      <TimelineSoftware/>
       <Link href="/ChemistryPage">
         <NavLink>
           Chemistry Career
@@ -21,4 +24,4 @@ const AboutMe = () => {
   )
 }
 
-export default AboutMe;
+export default About;

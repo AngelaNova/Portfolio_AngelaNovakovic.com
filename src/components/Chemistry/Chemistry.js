@@ -8,7 +8,9 @@ import TimelineAbout from '../TimelineAbout/TimelineAbout';
 const Chemistry = () => {
   return (
     <Section>
-      <SectionTitle>
+      <SectionTitle style={{
+        marginTop:"130px",
+      }}>
         My Career in Organic Chemistry 
       </SectionTitle>
       <TimelineAbout/>
