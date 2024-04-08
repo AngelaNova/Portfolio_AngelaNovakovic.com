@@ -67,25 +67,34 @@ import TimelineItemSoftware from './TimelineItemSoftware';
               Driven by my fervent passion for software development and computer science, I officially declared it as my minor.
             </SectionText>
           </TimelineItemSoftware>
-          <TimelineItemSoftware title="Undergraduate Research Assistant - McGill University, Tsantrizos Group (2019 - 2020)" date=" September 2019">
+          
+          <TimelineItemSoftware title="Journey Through Computing and Scripting, McGill University" date=" September 2019">
             <SectionText>
-            
+              I explored computer science through a comprehensive study of data structures, algorithms, and the C programming language, while delving into the principles of discrete structures. Additionally, gained proficiency in Bash scripting and acquired a deep understanding of the folder structure tree
             </SectionText>
           </TimelineItemSoftware>
+          <Section style={{
+          display:"flex",
+          flex: "1fr 1fr",
+          flexDirection: "row",
+          marginTop:"-40px",
+          marginBottom:"20px",
+          justifyContent: "center",
+        }}>
+          <img src="/images/CIcon.png" width="80%"/>
+          <img src="/images/BashIcon.png" width="50%"/><div/>
+          </Section>
 
-           <div/>
+
 
           <TimelineItemSoftware title="Research Assistant Intern - IntelliSyn R&D (2020)" date=" May 2020">
             <SectionText>
               
             </SectionText>
           </TimelineItemSoftware>
-          <TimelineItemSoftware title="Graduate Research Assistant - McGill University, Gleason Group (2020 - 2023)" date=" September 2020">
-            <SectionText>
-               
-            </SectionText>
-          </TimelineItemSoftware>
           
+
+
           <TimelineItemSoftware title="Research Associate - NuChem Sciences (2023 - Present)" date="October 2023">
             <SectionText>
               
