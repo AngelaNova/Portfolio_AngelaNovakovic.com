@@ -46,16 +46,25 @@ import TimelineItemSoftware from './TimelineItemSoftware';
             }/><div/>
         </Section>
        
-          <TimelineItemSoftware title="Intro to Object Oriented Programming - Java" date=" 2017">
+          <TimelineItemSoftware title="Intro to Object Oriented Programming - Java, McGill University" date=" 2017">
             <SectionText>
               From my initial exposure to Java and object-oriented programming during my university studies, I've been drawn to the precision and logic inherent in coding. This structured approach resonates with my background in organic chemistry, where creativity is encouraged within the framework of defined principles. Programming offers a realm where multiple correct solutions exist, mirroring the nuanced challenges of scientific exploration.
             </SectionText>
           </TimelineItemSoftware>
-          <img src="/images/JavaIcon.png" width="15%"/><div/>
+          <Section style={{
+          display:"flex",
+          flex: "1fr 1fr",
+          flexDirection: "row",
+          marginTop:"-40px",
+          marginBottom:"20px",
+          justifyContent: "center",
+        }}>
+          <img src="/images/JavaIcon.png" width="80%"/><div/>
+          </Section>
 
-          <TimelineItemSoftware title="Undergraduate Research Assistant - McGill University, Ariya Group (2019 - 2020)" date=" September 2019">
+          <TimelineItemSoftware title="Declared my minor to be Computer Science, McGill University" date=" 2018">
             <SectionText>
-            
+              Driven by my fervent passion for software development and computer science, I officially declared it as my minor.
             </SectionText>
           </TimelineItemSoftware>
           <TimelineItemSoftware title="Undergraduate Research Assistant - McGill University, Tsantrizos Group (2019 - 2020)" date=" September 2019">
