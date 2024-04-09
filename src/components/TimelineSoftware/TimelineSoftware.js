@@ -17,7 +17,6 @@ import TimelineItemSoftware from './TimelineItemSoftware';
           flex: "1fr 1fr",
           flexDirection: "row",
           marginBottom:"20px",
-          marginLeft:"-5px",
           justifyContent: "center",
         }}>
               Combining a background in organic chemistry with a fervent passion for software, my career reflects a journey of innovation and dedication. Transitioning from mastering organic synthesis to delving into software development intricacies, I embody a fusion of analytical prowess and creative problem-solving.
