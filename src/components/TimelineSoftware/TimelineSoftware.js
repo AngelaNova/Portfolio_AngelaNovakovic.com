@@ -94,7 +94,7 @@ import TimelineItemSoftware from './TimelineItemSoftware';
 
           <TimelineItemSoftware title="Research Assistant Intern - IntelliSyn R&D (2020)" date=" May 2020">
             <SectionText>
-              
+              Info about other software
             </SectionText>
           </TimelineItemSoftware>
           
