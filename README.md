@@ -34,6 +34,58 @@ This repository contains the source code for Angela Novakovic's portfolio websit
 - **File:** `components/Theme.js`
 - **Description:** Sets up the theme for the website using styled-components.
 
+### NavDropDown
+- **File:** `components/NavDropDown.js`
+- **Description:** Component for displaying contact information in a dropdown menu.
+
+### Footer
+- **File:** `components/Footer.js`
+- **Description:** Footer component displaying social media links and contact information.
+
+### Header
+- **File:** `components/Header.js`
+- **Description:** Header component with navigation links and dropdown menu for projects.
+
+### Hero
+- **File:** `components/Hero.js`
+- **Description:** Component for the hero section of the home page, showcasing Angela's profile picture and introduction.
+
+### MyTech
+- **File:** `components/MyTech.js`
+- **Description:** Component displaying Angela's proficiency in various programming languages and frameworks.
+
+### About
+- **File:** `components/About.js`
+- **Description:** Component showcasing Angela's journey towards software development.
+
+### Acomplishments
+- **File:** `components/Acomplishments.js`
+- **Description:** Component displaying Angela's personal achievements.
+
+### TimelineSoftware
+- **File:** `components/TimelineSoftware.js`
+- **Description:** Component displaying Angela's timeline towards software development.
+
+### TimelineAbout
+- **File:** `components/TimelineAbout.js`
+- **Description:** Component displaying Angela's timeline about her career in organic chemistry.
+
+### PortfolioProject
+- **File:** `components/PortfolioProject.js`
+- **Description:** Placeholder component for the portfolio project page.
+
+### Projects
+- **File:** `components/Projects.js`
+- **Description:** Component showcasing a summary of Angela's projects.
+
+### Timeline
+- **File:** `components/Timeline.js`
+- **Description:** Component displaying a timeline of Angela's academic and professional journey.
+
+### Technologies
+- **File:** `components/Technologies.js`
+- **Description:** Component showcasing the technologies Angela has worked with in software development.
+
 ## Other Files
 
 - **`next.config.js`:** Configuration file for Next.js.
