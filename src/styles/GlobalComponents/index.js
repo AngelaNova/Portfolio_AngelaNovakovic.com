@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '62px' : '46px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: linear-gradient(121.57deg, rgba(255, 255, 255, 0.75) 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 0;
@@ -83,7 +83,7 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
-    'rgba(255, 117, 67, 0.93)' :
+    'rgba(255, 117, 67, 0.90)' :
     'rgba(255, 117, 67, 0.73)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
@@ -143,7 +143,7 @@ export const SecondaryBtn = styled.button`
 
   &:active {
     background: rgba(255, 117, 67, 0.73);
-    border: 1px solid rgba(255, 117, 67, 0.93);
+    border: 1px solid rgba(255, 117, 67, 0.90);
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
 
