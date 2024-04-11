@@ -98,13 +98,6 @@ import TimelineItemSoftware from './TimelineItemSoftware';
             </SectionText>
           </TimelineItemSoftware>
           
-
-
-          <TimelineItemSoftware title="Research Associate - NuChem Sciences (2023 - Present)" date="October 2023">
-            <SectionText>
-              
-            </SectionText>
-          </TimelineItemSoftware>
         </Section>
         
       </>
