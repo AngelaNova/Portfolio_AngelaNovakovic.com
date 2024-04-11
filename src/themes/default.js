@@ -6,7 +6,7 @@ export default {
   },
   // Colors for layout
   colors: {
-    primary1: "#fff",
+    primary1: " rgba(255,255,255, 0.8)",
     background1: "linear-gradient(91deg, rgba(0, 0, 0, 1) 0%, rgba(0, 1, 60, 0.75) 100%)",
     accent1: "rgba(255, 117, 67, 0.73)",
     button: "green",

@@ -4,7 +4,7 @@ import React from 'react';
 const PortfolioProject = () => {
   return (
     <Section>
-      <SectionText>
+      <SectionText marginTop="150px">
         This is my Portfolio Project
       </SectionText>
     </Section>

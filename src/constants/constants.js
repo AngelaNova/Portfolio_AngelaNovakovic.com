@@ -1,11 +1,11 @@
 export const projects = [
   {
     title: 'Portfolio',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "My portfolio presents diverse projects, highlighting my software development journey. The 'Portfolio' project, on Next.js with JavaScript, illustrates my career path. Proficient in React.js, JavaScript, and Node.js, I showcase skills from basic projects to advanced engineering endeavors.",
       image: '/images/Portfolio.png',
-      tags: ['HTML', 'JavaScript', 'React', 'Next.js'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['JavaScript', 'React', 'Next.js'],
+    source: 'https://github.com/AngelaNova/Portfolio_AngelaNovakovic.com',
+    visit: 'https://github.com/AngelaNova/Portfolio_AngelaNovakovic.com',
     id: 0,
   },
   {

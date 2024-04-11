@@ -52,9 +52,9 @@ const Hero = (props) => {
               <YoutubeLink href="https://www.youtube.com/playlist?list=PL5X764mf-V_MJzVhA4egDnbjBAdivzViz"> 
                 more than 76 hours of coding tutorials on YouTube
               </YoutubeLink>
-              &nbsp;and listened to
+              &nbsp;and listened to &nbsp;
               <SpotifyLink href="https://developer.spotify.com/documentation/web-api">
-                &nbsp;600 minutes of music on Spotify 
+                600 minutes of music on Spotify 
               </SpotifyLink>
               &nbsp;in the past 30 days.
             </p>

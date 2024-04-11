@@ -136,7 +136,7 @@ export const SecondaryBtn = styled.button`
   }
 
   &:hover {
-    color: #0f1624;
+    color: #rbga(255,255,255,0.7);
     background: rgba(255, 117, 67, 0.93);
     border: 1px solid #fff;
   }

@@ -12,8 +12,8 @@ const Header = () =>  {
     <Container>
       <Div1>
         <Link href="/">
-          <a style={{ display: 'flex', alignItems: 'center', color:"white", fontFamily:'Verdana' , fontSize:"30px", marginLeft:"30px"}}>
-            <span>AngelaNova</span>
+          <a style={{ display: 'flex', alignItems: 'center', color: "rgba(255, 255, 255, 0.75)", fontFamily:'Verdana' , fontSize:"28px", marginLeft:"20px"}}>
+            <span>AngelaNovakovic</span>
           </a>
         </Link>
       </Div1>
