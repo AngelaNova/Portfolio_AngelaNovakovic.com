@@ -7,8 +7,11 @@ import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
+import { Section, SectionDivider } from '../styles/GlobalComponents';
 import { preventScroll } from '../styles/ScrollControl';
+import Link from 'next/link';
+import Button from '../styles/GlobalComponents/Button';
+
 
 
 const Home = () => {
@@ -29,6 +32,12 @@ const Home = () => {
         </Section>
         <Projects />
         <Technologies />
+        <Section>
+            <Button padding="100px" href="./MyTechPage">
+              Learn More
+            </Button>
+        <SectionDivider colorAlt />
+        </Section>
         <Timeline />
         <Acomplishments />
       </Layout>

@@ -1,4 +1,4 @@
-import { Section, SectionSubText, SectionText, SectionTitle} from '../../styles/GlobalComponents'; 
+import { Section, SectionText, SectionTitle} from '../../styles/GlobalComponents'; 
 import React from 'react';
 import Technologies from '../Technologies/Technologies';
 

@@ -60,12 +60,8 @@ const Hero = (props) => {
             </p>
           </div>
         </SectionText>
-        {/* Wrap the button text inside the Link component */}
-        <Link href="/AboutPage">
-          <Button>
-            Learn More
-          </Button>
-        </Link>
+       
+          <Button href="/AboutPage"> Learn More </Button>
       </LeftSection>
     </Section>
   );
