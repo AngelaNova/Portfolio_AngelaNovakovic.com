@@ -19,7 +19,9 @@ const About = () => {
         <NavLink>
           Chemistry Career
         </NavLink>
+        <br/>
       </Link>
+      <br/>
     </Section>
   )
 }

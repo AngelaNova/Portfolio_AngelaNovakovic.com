@@ -7,18 +7,20 @@ import TimelineAbout from '../TimelineAbout/TimelineAbout';
 
 const Chemistry = () => {
   return (
-    <Section>
+    <Section> 
       <SectionTitle style={{
         marginTop:"130px",
       }}>
         My Career in Organic Chemistry 
       </SectionTitle>
       <TimelineAbout/>
-      <Link href="/AboutPage">
+      <Link href="/AboutPage"marginBottom="500px">
         <NavLink>
           Software Development 
         </NavLink>
+        <br/>
       </Link>
+      <br/>
     </Section>
   )
 }
