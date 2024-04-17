@@ -176,13 +176,13 @@ export const ButtonBack = styled.div`
   align-items: center;
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
-  color: #fff;
-  background: ${({ alt }) => alt ? 'rgba(255, 117, 67, 0.73)' : 'rgba(255, 117, 67, 0.73)'};
+  color: rbga(255,255,255,0.7);
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
   overflow: hidden;
-  opacity: ${({ disabled }) => disabled ? '.5' : '1'};
+  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 0px 1px rgba(255, 255, 255, 0.6), inset 0px 0px 4px rgba(20, 20, 55, 0.3)' : 'inset 0px 0px 4px rgba(255, 255, 255, 0.6), inset 0px 0px 4px rgba(20, 20, 55, 0.3)'};
+
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: ${({ alt }) => alt ? '100px' : '120px'};
@@ -202,38 +202,21 @@ export const ButtonBack = styled.div`
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
-  color: #fff;
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'rgba(255, 117, 67, 0.73)' : 'rgba(255, 117, 67, 0.63)'};
-  opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '15px' : '19px'};
   font-weight: 400;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(1, 1, 1, 0.15), inset 0px 0px 4px rgba(0, 1, 60, 0.75)' : 'none'};
-
+  opacity: 0;
   &:hover {
-    opacity: 0;
-  }
-  &:focus {
-    outline: none;
-  }
-  &:active {
-    opacity: 1;
-    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
-  }
-
-  &:disabled{
-    background: rgba(255, 117, 67, 0.63);
-    opacity: 0.5;
-    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+    box-shadow: 'inset 0px 0px 1px rgba(255, 255, 255, 0.9), inset 0px 0px 4px rgba(20, 20, 55, 0.3)'
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -256,6 +239,7 @@ export const LinkContainer = styled.div`
     background-color: rgba(255, 117, 67, 0.83);
     transform: scale(1.2);
     cursor: pointer;
+    
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
