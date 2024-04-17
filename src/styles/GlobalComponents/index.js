@@ -178,7 +178,6 @@ export const ButtonBack = styled.div`
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: rbga(255,255,255,0.7);
   cursor: pointer;
-  transition: 0.5s ease;
   position: relative;
   overflow: hidden;
   box-shadow: ${({ disabled }) => disabled ? 'inset 0px 0px 1px rgba(255, 255, 255, 0.6), inset 0px 0px 4px rgba(20, 20, 55, 0.3)' : 'inset 0px 0px 4px rgba(255, 255, 255, 0.6), inset 0px 0px 4px rgba(20, 20, 55, 0.3)'};
@@ -208,7 +207,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  transition: .4s ease;
+  transition: 0.1s;
   font-size: ${({ alt }) => alt ? '15px' : '19px'};
   font-weight: 400;
   align-items: center;
@@ -216,7 +215,12 @@ export const ButtonFront = styled.button`
   cursor: pointer;
   opacity: 0;
   &:hover {
-    box-shadow: 'inset 0px 0px 1px rgba(255, 255, 255, 0.9), inset 0px 0px 4px rgba(20, 20, 55, 0.3)'
+    box-shadow: 'inset 0px 0px 2px rgba(255, 255, 255, 0.9), inset 0px 0px 4px rgba(20, 20, 55, 0.6)';
+    background: rgba(255,255,255,0.15);
+    font-size: ${({ alt }) => alt ? '15px' : '19px'};
+    font-weight: 400;
+    color: rgba(255,255,255,0.7);
+    opacity:1;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
