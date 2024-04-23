@@ -10,7 +10,7 @@ import { Layout } from '../layout/Layout';
 import { Section, SectionDivider } from '../styles/GlobalComponents';
 import { preventScroll } from '../styles/ScrollControl';
 import Link from 'next/link';
-import Button from '../styles/GlobalComponents/Button';
+import { NavLink } from '../components/Chemistry/ChemistryStyles';
 
 
 
@@ -33,9 +33,15 @@ const Home = () => {
         <Projects />
         <Technologies />
         <Section>
-            <Button padding="100px" href="./MyTechPage">
-              Learn More
-            </Button>
+        <div style={{
+          paddingBottom:"100px",
+        }}>
+          <Link href="/MyTechPage">
+            <NavLink>
+              Learn More 
+            </NavLink>
+          </Link>
+        </div>
         <SectionDivider colorAlt />
         </Section>
         <Timeline />

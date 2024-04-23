@@ -4,6 +4,7 @@ import { LeftSection, GitHubLink, YoutubeLink, SpotifyLink } from './HeroStyles'
 import Tooltip from '@mui/material/Tooltip';
 import { useState } from 'react';
 import Link from 'next/link'; // Import Link from Next.js
+import { NavLink } from '../Chemistry/ChemistryStyles';
 
 const handleImageClick = () => {
   window.open('https://www.linkedin.com/in/angela-novakovic/', '_blank');
@@ -60,8 +61,15 @@ const Hero = (props) => {
             </p>
           </div>
         </SectionText>
-       
-          <Button href="/AboutPage"> Learn More </Button>
+        <div style={{
+          paddingBottom:"100px",
+        }}>
+          <Link href="/AboutPage">
+            <NavLink>
+              Learn More 
+            </NavLink>
+          </Link>
+        </div>
       </LeftSection>
     </Section>
   );

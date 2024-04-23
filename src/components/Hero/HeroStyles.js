@@ -21,44 +21,44 @@ export const LeftSection = styled.div`
 
 export const GitHubLink = styled.a`
   display: inline; 
-  color: rgba(255, 255, 255, 0.5); 
+  color: rgba(255, 255, 255, 0.65); 
   text-decoration: underline;
-  text-decoration-color: rgba(255, 117, 67, 0.73);
+  text-decoration-color: rgba(255, 117, 67, 0.45);
   &:hover {
-    color: rgba(255, 117, 67, 0.73); 
+    color: rgba(255, 117, 67, 0.5); 
     transition: background-color 0.3s ease; 
     transition-delay: 0.04s;
-    text-decoration-color: rgba(255, 117, 67, 0.73);
-    background:rgba(255, 117, 67, 0.3);
+    text-decoration-color: rgba(255, 117, 67, 0.6);
+    background:rgba(255, 117, 67, 0.1);
   }
 `;
 
 export const YoutubeLink = styled.a`
   display: inline; 
-  color: rgba(255, 255, 255, 0.5); 
+  color: rgba(255, 255, 255, 0.65); 
   text-decoration: underline;
-  text-decoration-color: rgba(255, 117, 67, 0.73);
+  text-decoration-color: rgba(255, 117, 67, 0.45);
   &:hover {
-    color: rgba(255, 117, 67, 0.73); 
+    color: rgba(255, 117, 67, 0.5); 
     transition: background-color 0.3s ease; 
     transition-delay: 0.04s;
-    text-decoration-color: rgba(255, 117, 67, 0.73);
-    background:rgba(255, 117, 67, 0.3);
+    text-decoration-color: rgba(255, 117, 67, 0.6);
+    background:rgba(255, 117, 67, 0.1);
   }
 `;
 
 export const SpotifyLink = styled.a`
   display: inline; 
-  color: rgba(255, 255, 255, 0.5); 
+  color: rgba(255, 255, 255, 0.65); 
   text-decoration: underline;
-  text-decoration-color: rgba(255, 117, 67, 0.73);
+  text-decoration-color: rgba(255, 117, 67, 0.45);
 
   &:hover {
-    color: rgba(255, 117, 67, 0.73); 
+    color: rgba(255, 117, 67, 0.5); 
     transition: background-color 0.3s ease; 
     transition-delay: 0.04s;
-    text-decoration-color: rgba(255, 117, 67, 0.73);
-    background:rgba(255, 117, 67, 0.3);
+    text-decoration-color: rgba(255, 117, 67, 0.6);
+    background:rgba(255, 117, 67, 0.1);
   }
 `;
 
