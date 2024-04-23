@@ -207,7 +207,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  transition: 0.1s;
+  transition: 0.05s ease;
   font-size: ${({ alt }) => alt ? '15px' : '19px'};
   font-weight: 400;
   align-items: center;
