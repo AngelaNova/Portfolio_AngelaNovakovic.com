@@ -1,5 +1,5 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import { IoIosArrowDropdown } from "react-icons/io";
+import theme from "../../themes/default.js";
 
 export const Container = styled.div`
   display: grid;
@@ -9,12 +9,12 @@ export const Container = styled.div`
   padding: 25px;
   margin-bottom: 700px;
   position: fixed;
-  left:0;
-  right:0;
-  top:0;
-  background:linear-gradient(91deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 1, 60, 0.65) 100%);
-  z-index:200;
-  
+  left: 0;
+  right: 0;
+  top: 0;
+  background: ${theme.colors.primaryBackground};
+  z-index: 200;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -23,7 +23,6 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
-
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 3;
@@ -38,14 +37,12 @@ export const Div2 = styled.div`
   grid-area: 1 / 4 / 4 / span 5; /* Update to span from column 2 to 6 */
   display: flex;
   justify-content: space-around;
-  align-content:right;
+  align-content: right;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 4 / 4 / span 5; 
+    grid-area: 2 / 4 / 4 / span 5;
   }
 `;
-
-
 
 // Navigation Links
 export const NavLink = styled.a`
@@ -57,13 +54,12 @@ export const NavLink = styled.a`
     color: #fff;
     opacity: 1;
     cursor: pointer;
-    text-decoration:underline;
+    text-decoration: underline;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 1rem;
   }
 `;
-
 
 /// DropDown Contact
 export const ContactDropDown = styled.button`
@@ -98,9 +94,9 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   display: flex;
   align-self: center;
   justify: center;
-  
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};
-  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
+
+  opacity: ${({ isOpen }) => (isOpen ? "1" : ".75")};
+  transform: ${({ isOpen }) => (isOpen ? "scaleY(-1)" : "scaleY(1)")};
 
   &:hover {
     opacity: 1;
@@ -112,14 +108,13 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
-// Social Icons 
+// Social Icons
 export const SocialIcons = styled.a`
-color: white;
-border-radius: 50px;
+  color: white;
+  border-radius: 50px;
   padding: 6px;
-&:hover {
-    background-color: #D1D4DA30;
+  &:hover {
+    background-color: #d1d4da30;
     cursor: pointer;
   }
-`
+`;
